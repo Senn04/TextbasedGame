@@ -13,7 +13,8 @@ namespace TextBasedGame
             toughness = 0,
             damageMax = 4,
             damageMin = 2,
-            dexterity = 0;
+            dexterity = 0,
+            yeet = 69;
 
     }
 }
