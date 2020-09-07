@@ -4,8 +4,8 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class Inventory : main
+    class equipment
     {
-        Item item = new Item();
+
     }
 }

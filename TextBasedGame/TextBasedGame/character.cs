@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class character
+    class Character
     {
         public int
             health = 20,
