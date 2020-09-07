@@ -4,9 +4,9 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class menu
+    class menu : Game
     {
-        void Menu()
+        public static void ActionMenu()
         {
 
         }

@@ -1,0 +1,4 @@
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.csprojAssemblyReference.cache
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfoInputs.cache
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfo.cs
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.csproj.CoreCompileInputs.cache

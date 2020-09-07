@@ -2,13 +2,13 @@
 
 namespace TextBasedGame
 {
-    class main
+    class main : Game
     {
         static void Main(string[] args)
         {
             for (; ; )
             {
-
+                
             }
         }
 

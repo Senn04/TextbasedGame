@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class equipment
+    class Equipment : Items
     {
 
     }

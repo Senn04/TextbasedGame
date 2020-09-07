@@ -6,6 +6,6 @@ namespace TextBasedGame
 {
     class Inventory : main
     {
-        Item item = new Item();
+        Items item = new Items();
     }
 }
