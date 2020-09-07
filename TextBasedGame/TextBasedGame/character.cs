@@ -11,7 +11,8 @@ namespace TextBasedGame
             stamina = 20,
             toughness = 0,
             damageMax = 4,
-            damageMin = 2;
+            damageMin = 2,
+            dexterity = 0;
 
     }
 }
