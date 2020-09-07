@@ -2,3 +2,12 @@ B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\ne
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfoInputs.cache
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfo.cs
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.csproj.CoreCompileInputs.cache
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.exe
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.deps.json
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.runtimeconfig.json
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.runtimeconfig.dev.json
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.dll
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.pdb
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.dll
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.pdb
+B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.genruntimeconfig.cache

@@ -6,11 +6,11 @@ namespace TextBasedGame
     {
         static void Main(string[] args)
         {
-            for (; ; )
-            {
-                
-            }
-        }
+            Menus.GameMenu();
+            
 
+            Console.ReadKey();
+
+        }        
     }
 }
