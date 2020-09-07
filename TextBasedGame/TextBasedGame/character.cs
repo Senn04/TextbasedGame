@@ -12,7 +12,8 @@ namespace TextBasedGame
             mana = 5,
             toughness = 0,
             damageMax = 4,
-            damageMin = 2;
-            
+            damageMin = 2,
+            dexterity = 0;
+
     }
 }
