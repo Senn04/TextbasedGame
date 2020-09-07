@@ -6,6 +6,11 @@ namespace TextBasedGame
 {
     class Game 
     {
+        public static void GameInit()
+        {
+            Menus.GameMenu();
+        }
+
 
     }
 }
