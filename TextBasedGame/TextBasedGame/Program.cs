@@ -2,7 +2,7 @@
 
 namespace TextBasedGame
 {
-    class Main : Game
+    class Program : Game
     {
         static void main(string[] args)
         {
