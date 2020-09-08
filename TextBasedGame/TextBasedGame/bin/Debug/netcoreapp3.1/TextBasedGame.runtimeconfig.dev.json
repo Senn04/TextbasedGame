@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\johannes.torgilsson\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\johannes.torgilsson\\.nuget\\packages"
+      "C:\\Users\\senna\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\senna\\.nuget\\packages"
     ]
   }
 }

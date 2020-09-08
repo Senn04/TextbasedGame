@@ -2,9 +2,9 @@
 
 namespace TextBasedGame
 {
-    class Program : Game
+    class main : Game
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Game.GameInit();
             
