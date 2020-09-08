@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class Combat : Character
+    class Combat : Entity
     {
 
         //player + stat is a temporary name
