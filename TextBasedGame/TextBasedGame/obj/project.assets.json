@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\alice.tambour\\.nuget\\packages\\": {}
+    "C:\\Users\\senna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+      "projectUniqueName": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
       "projectName": "TextBasedGame",
-      "projectPath": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
-      "packagesPath": "C:\\Users\\alice.tambour\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
+      "projectPath": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+      "packagesPath": "C:\\Users\\senna\\.nuget\\packages\\",
+      "outputPath": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alice.tambour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\senna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

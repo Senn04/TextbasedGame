@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\alice.tambour\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\alice.tambour\\.nuget\\packages"
+      "C:\\Users\\senna\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\senna\\.nuget\\packages"
     ]
   }
 }
