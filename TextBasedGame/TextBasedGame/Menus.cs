@@ -12,11 +12,7 @@ namespace TextBasedGame
         {
             //Main menu options
 
-            Console.WriteLine("Potato Entertainment Presents:");
-            Console.WriteLine("  ### PlaceHolderName ###");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
+            Game.GameInfo();
             Console.WriteLine("Press:");
             Console.WriteLine("   1 to start game");
             Console.WriteLine("   2 to load saved character");
@@ -24,8 +20,23 @@ namespace TextBasedGame
 
             //Option choise
             string choiseStr = Console.ReadLine();
-            _ = Convert.ToInt32(choiseStr);
+            int choise = Convert.ToInt32(choiseStr);
 
+            //Using the 
+            if (choise == 1)
+            {
+                Console.Clear();
+                Game.GameInfo();
+                Menus.ActionMenu();
+            }
+            else if (choise == 2)
+            {
+
+            }
+            else
+            {
+
+            }
         }
 
         public static void ActionMenu()

@@ -11,3 +11,16 @@ B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\ne
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.dll
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.pdb
 B:\Creative\TextBasedGame\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.genruntimeconfig.cache
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.exe
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.deps.json
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.runtimeconfig.json
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.runtimeconfig.dev.json
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.dll
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\bin\Debug\netcoreapp3.1\TextBasedGame.pdb
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.csprojAssemblyReference.cache
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfoInputs.cache
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.AssemblyInfo.cs
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.csproj.CoreCompileInputs.cache
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.dll
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.pdb
+C:\Users\johannes.torgilsson\Dropbox\My PC (5CD02325D4)\Documents\Game\TextbasedGame\TextBasedGame\TextBasedGame\obj\Debug\netcoreapp3.1\TextBasedGame.genruntimeconfig.cache

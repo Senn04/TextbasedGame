@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\senna\\.nuget\\packages\\": {}
+    "C:\\Users\\johannes.torgilsson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+      "projectUniqueName": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
       "projectName": "TextBasedGame",
-      "projectPath": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
-      "packagesPath": "C:\\Users\\senna\\.nuget\\packages\\",
-      "outputPath": "B:\\Creative\\TextBasedGame\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
+      "projectPath": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+      "packagesPath": "C:\\Users\\johannes.torgilsson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\senna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\johannes.torgilsson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
