@@ -17,16 +17,17 @@ namespace TextBasedGame
             playerDamageMin,
             playerDexterity;
 
-        /*
-        //Set stats
-        int hp = 20;
-        int enemHp = 50;
-        int attack = 5;
-        int enemAttack = 3;
-        int enemySCountdown = 5;
-        bool anyAlive = true;
 
-        Console.WriteLine("Welcome to arr pee gee V0.00000001");
+        public void inCombat ()
+        {
+            //Set stats
+            int enemHp = 50;
+            int attack = 5;
+            int enemAttack = 3;
+            int enemySCountdown = 5;
+            bool anyAlive = true;
+
+            Console.WriteLine("Welcome to arr pee gee V0.00000001");
             Console.WriteLine("Get ready to fight!");
 
             Console.ReadKey();
@@ -36,7 +37,7 @@ namespace TextBasedGame
             while (anyAlive)
             {
                 //Status message every in beginning of turn
-                Console.WriteLine("Hp: " + hp);
+                Console.WriteLine("Hp: " + playerHealth);
                 Console.WriteLine("Enemy Hp: " + enemHp);
                 Console.WriteLine("   ");
                 Console.WriteLine("What will you do?");
@@ -48,8 +49,8 @@ namespace TextBasedGame
                 //Reads command by player
                 string input = Console.ReadLine();
 
-        Console.Clear();
-                
+                Console.Clear();
+
                 if (input == "Attack")
                 {
                     //Attacks enemy by subtracting attack from enemy hp
@@ -59,7 +60,7 @@ namespace TextBasedGame
                 }
                 else if (input == "Block")
                 {
-                    //Blocks and halves enemy damage for one turn but it's not programmed in yet
+                    //Blocks and halves enemy damage for one turn
                     Console.WriteLine("You block! You will take half damage if attacked!");
                 }
                 else if (input == "Heal")
@@ -67,7 +68,7 @@ namespace TextBasedGame
                     //Heals you by giving you 5 hp
                     Console.WriteLine("You healed yourself!");
                     Console.WriteLine("You got 7 hp!");
-                    hp += 7;
+                    playerHealth += 7;
                 }
                 else
                 {
@@ -83,7 +84,7 @@ namespace TextBasedGame
                 Console.WriteLine("Enemy attacked!");
 
                 //Checks if enemy is dead so it can't attack you
-                if (enemHp< 1)
+                if (enemHp < 1)
                 {
                     Console.WriteLine("But enemy is dead!");
                 }
@@ -92,8 +93,8 @@ namespace TextBasedGame
                     if (enemySCountdown == 0)
                     {
                         Console.WriteLine("Special attack!");
-                        Console.WriteLine("You lost " + enemAttack* 3 + " hp!");
-                        hp -= enemAttack* 3;
+                        Console.WriteLine("You lost " + enemAttack * 3 + " hp!");
+                        playerHealth -= enemAttack * 3;
                         enemySCountdown = 5;
                     }
                     else if (enemySCountdown == 1)
@@ -104,7 +105,7 @@ namespace TextBasedGame
                     else
                     {
                         Console.WriteLine("You lost " + enemAttack + " hp!");
-                        hp -= enemAttack;
+                        playerHealth -= enemAttack;
                         enemySCountdown -= 1;
                     }
                 }
@@ -114,16 +115,16 @@ namespace TextBasedGame
                 Console.WriteLine("   ");
 
                 //Checks if someone died
-                if (hp <= 0 || enemHp <= 0)
+                if (playerHealth <= 0 || enemHp <= 0)
                 {
                     anyAlive = false;
                 }
-                
+
             }
 
             Console.Clear();
 
-            if (hp <= 0)
+            if (playerHealth <= 0)
             {
                 Console.WriteLine("You lost...");
             }
@@ -133,7 +134,7 @@ namespace TextBasedGame
             }
 
             Console.ReadLine();
-            */
+        }
 
     }
 }
