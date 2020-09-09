@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Reflection.Metadata;
 using System.Text;
 
 namespace TextBasedGame
@@ -27,7 +28,7 @@ namespace TextBasedGame
             {
                 Console.Clear();
                 Game.GameInfo();
-                Menus.ActionMenu();
+                Menus.characterMenu();
             }
             else if (choise == 2)
             {
@@ -39,6 +40,26 @@ namespace TextBasedGame
             }
         }
 
+        public static void characterMenu()
+        {
+            Console.WriteLine("Choose do you want to create or load character?");
+            Console.WriteLine("    1 Create new character");
+            Console.WriteLine("    2 Load a saved character");
+
+            //Option choise
+            string choiseStr = Console.ReadLine();
+            int choise = Convert.ToInt32(choiseStr);
+
+            if (choise == 1)
+            {
+                Console.Clear();
+                Game.GameInfo();
+                Character.createNewCharacter();
+
+
+            }
+        }
+        
         public static void ActionMenu()
         {
             

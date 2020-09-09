@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj": {}
+    "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj": {
+    "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+        "projectUniqueName": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
         "projectName": "TextBasedGame",
-        "projectPath": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
-        "packagesPath": "C:\\Users\\alice.tambour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alice.tambour\\Documents\\GitHub\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
+        "projectPath": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\TextBasedGame.csproj",
+        "packagesPath": "C:\\Users\\johannes.torgilsson\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johannes.torgilsson\\Dropbox\\My PC (5CD02325D4)\\Documents\\Game\\TextbasedGame\\TextBasedGame\\TextBasedGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alice.tambour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\johannes.torgilsson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
