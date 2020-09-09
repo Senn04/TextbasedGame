@@ -35,6 +35,7 @@ namespace TextBasedGame
             Console.WriteLine("Get ready to fight!");
 
             Console.ReadKey();
+
             Console.Clear();
             Game.GameInfo();
 

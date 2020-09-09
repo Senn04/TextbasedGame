@@ -62,7 +62,12 @@ namespace TextBasedGame
         
         public static void ActionMenu()
         {
-            
+            Console.WriteLine("Choose an action to make:");
+            Console.WriteLine("    1 Travel");
+            Console.WriteLine("    2 Train");
+            Console.WriteLine("    3 Rest");
+            Console.WriteLine(" ");
+            Console.WriteLine("    4 Quit");
         }
     }
 }

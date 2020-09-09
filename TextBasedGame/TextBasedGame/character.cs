@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace TextBasedGame
 {
@@ -9,6 +10,10 @@ namespace TextBasedGame
         public static void createNewCharacter()
         {
             Console.WriteLine("Character created");
+            
+            Console.Clear();
+            Game.GameInfo();
+            Menus.ActionMenu();
         }
 
         public static void saveCharacterState()
