@@ -27,11 +27,16 @@ namespace TextBasedGame
             int enemySCountdown = 5;
             bool anyAlive = true;
 
+            //Opens a "new" window with default text in the top
+            Console.Clear();
+            Game.GameInfo();
+
             Console.WriteLine("Welcome to arr pee gee V0.00000001");
             Console.WriteLine("Get ready to fight!");
 
             Console.ReadKey();
             Console.Clear();
+            Game.GameInfo();
 
             //These scripts will repeat until either player hp or enemy hp reaches 0 or less
             while (anyAlive)
@@ -41,29 +46,30 @@ namespace TextBasedGame
                 Console.WriteLine("Enemy Hp: " + enemHp);
                 Console.WriteLine("   ");
                 Console.WriteLine("What will you do?");
-                Console.WriteLine("   ");
-                Console.WriteLine("Attack");
-                Console.WriteLine("Block");
-                Console.WriteLine("Heal");
+                Console.WriteLine("    1 Attack");
+                Console.WriteLine("    2 Block");
+                Console.WriteLine("    3 Heal");
 
-                //Reads command by player
-                string input = Console.ReadLine();
+                //Option choise
+                string choiseStr = Console.ReadLine();
+                int choise = Convert.ToInt32(choiseStr);
 
                 Console.Clear();
+                Game.GameInfo();
 
-                if (input == "Attack")
-                {
-                    //Attacks enemy by subtracting attack from enemy hp
-                    Console.WriteLine("You attacked!");
-                    Console.WriteLine("Dealt " + attack + " damage to enemy!");
-                    enemHp -= attack;
+                if (choise == 1)
+                    {
+                        //Attacks enemy by subtracting attack from enemy hp
+                        Console.WriteLine("You attacked!");
+                        Console.WriteLine("Dealt " + attack + " damage to enemy!");
+                        enemHp -= attack;
                 }
-                else if (input == "Block")
-                {
-                    //Blocks and halves enemy damage for one turn
-                    Console.WriteLine("You block! You will take half damage if attacked!");
+                else if (choise == 2)
+                    {
+                        //Blocks and halves enemy damage for one turn
+                        Console.WriteLine("You block! You will take half damage if attacked!");
                 }
-                else if (input == "Heal")
+                else if (choise == 3)
                 {
                     //Heals you by giving you 5 hp
                     Console.WriteLine("You healed yourself!");
@@ -71,12 +77,12 @@ namespace TextBasedGame
                     playerHealth += 7;
                 }
                 else
-                {
-                    //If no matching string was found
-                    Console.WriteLine("You did nothing");
+                    {
+                     //If no matching string was found
+                     Console.WriteLine("You did nothing");
                 }
 
-                Console.ReadLine();
+                 Console.ReadLine();
 
                 //Enemy's turn
 
