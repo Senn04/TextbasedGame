@@ -6,9 +6,10 @@ namespace TextBasedGame
 {
     class Combat : Entity
     {
+        Character character = new Character();
 
         //player + stat is a temporary name
-        public static int
+         public static int
             playerHealth,
             playerStamina,
             playerMana,
@@ -16,8 +17,9 @@ namespace TextBasedGame
             playerDamageMax,
             playerDamageMin,
             playerDexterity;
+        
 
-        public static void setStats(int health, int stamina, int mana, int toughness, int damageMax, int damageMin, int dexterity)
+        public static int setStats(int health, int stamina, int mana, int toughness, int damageMax, int damageMin, int dexterity)
         {
             playerHealth = health;
             playerStamina = stamina;
@@ -26,6 +28,12 @@ namespace TextBasedGame
             playerDamageMax = damageMax;
             playerDamageMin = damageMin;
             playerDexterity = dexterity;
+
+            return 0;
+        }
+
+        public static void testFunction()
+        {
             Console.WriteLine(playerHealth);
             Console.WriteLine(playerStamina);
         }

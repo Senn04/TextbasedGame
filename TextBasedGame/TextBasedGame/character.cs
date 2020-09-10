@@ -17,13 +17,16 @@ namespace TextBasedGame
             damageMin = 2,
             dexterity = 2;
 
+        public static int[] statArray = new int[7] {health, stamina, mana, toughness, damageMax, damageMin, dexterity};
+
         public static void createNewCharacter()
         {
             Console.WriteLine("Character created");
-            
+
             //Console.Clear();
             //Game.GameInfo();
             Combat.SetStats(health, stamina, mana, toughness, damageMax, damageMin, dexterity);
+            Combat.testFunction();
         }
 
         public static void saveCharacterState()
