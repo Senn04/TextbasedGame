@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TextBasedGame
 {
-    class Character : Entity
+    class Character
     {
         
         public static int 
@@ -19,25 +19,7 @@ namespace TextBasedGame
 
         public static int[] statArray = new int[7] {health, stamina, mana, toughness, damageMax, damageMin, dexterity};
 
-        public static void createNewCharacter()
-        {
-            Console.WriteLine("Character created");
-
-            //Console.Clear();
-            //Game.GameInfo();
-            Combat.SetStats(health, stamina, mana, toughness, damageMax, damageMin, dexterity);
-            Combat.testFunction();
-        }
-
-        public static void saveCharacterState()
-        {
-            Console.WriteLine("Character saved");
-        }
-
-        public static void loadSavedCharacter()
-        {
-            Console.WriteLine("CharacterLoaded");
-        }
+        
 
 
     }

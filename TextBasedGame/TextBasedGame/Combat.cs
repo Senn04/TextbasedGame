@@ -4,12 +4,12 @@ using System.Text;
 
 namespace TextBasedGame
 {
-    class Combat : Entity
+    class Combat
     {
-        Character character = new Character();
+        public static Character character = new Character();
 
         //player + stat is a temporary name
-         public static int
+        public static int
             playerHealth,
             playerStamina,
             playerMana,
@@ -17,25 +17,11 @@ namespace TextBasedGame
             playerDamageMax,
             playerDamageMin,
             playerDexterity;
-        
 
-        public static int setStats(int health, int stamina, int mana, int toughness, int damageMax, int damageMin, int dexterity)
-        {
-            playerHealth = health;
-            playerStamina = stamina;
-            playerMana = mana;
-            playerToughness = toughness;
-            playerDamageMax = damageMax;
-            playerDamageMin = damageMin;
-            playerDexterity = dexterity;
-
-            return 0;
-        }
 
         public static void testFunction()
         {
-            Console.WriteLine(playerHealth);
-            Console.WriteLine(playerStamina);
+            Console.WriteLine();
         }
 
         public void inCombat ()
