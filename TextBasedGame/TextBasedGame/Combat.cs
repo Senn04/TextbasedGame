@@ -8,7 +8,7 @@ namespace TextBasedGame
     {
 
         //player + stat is a temporary name
-        public int
+        public static int
             playerHealth,
             playerStamina,
             playerMana,
@@ -17,6 +17,18 @@ namespace TextBasedGame
             playerDamageMin,
             playerDexterity;
 
+        public static void setStats(int health, int stamina, int mana, int toughness, int damageMax, int damageMin, int dexterity)
+        {
+            playerHealth = health;
+            playerStamina = stamina;
+            playerMana = mana;
+            playerToughness = toughness;
+            playerDamageMax = damageMax;
+            playerDamageMin = damageMin;
+            playerDexterity = dexterity;
+            Console.WriteLine(playerHealth);
+            Console.WriteLine(playerStamina);
+        }
 
         public void inCombat ()
         {

@@ -19,18 +19,18 @@ namespace TextBasedGame
             Console.WriteLine("   2 to load saved character");
             Console.WriteLine("   3 to quit the game");
 
-            //Option choise
-            string choiseStr = Console.ReadLine();
-            int choise = Convert.ToInt32(choiseStr);
+            //Option choice
+            string choiceStr = Console.ReadLine();
+            int choice = Convert.ToInt32(choiceStr);
 
             //Using the 
-            if (choise == 1)
+            if (choice == 1)
             {
                 Console.Clear();
                 Game.GameInfo();
                 Menus.characterMenu();
             }
-            else if (choise == 2)
+            else if (choice == 2)
             {
 
             }
@@ -46,11 +46,11 @@ namespace TextBasedGame
             Console.WriteLine("    1 Create new character");
             Console.WriteLine("    2 Load a saved character");
 
-            //Option choise
-            string choiseStr = Console.ReadLine();
-            int choise = Convert.ToInt32(choiseStr);
+            //Option choice
+            string choiceStr = Console.ReadLine();
+            int choice = Convert.ToInt32(choiceStr);
 
-            if (choise == 1)
+            if (choice == 1)
             {
                 Console.Clear();
                 Game.GameInfo();
