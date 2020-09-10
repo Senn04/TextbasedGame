@@ -74,7 +74,7 @@ namespace TextBasedGame
         public static async void createNewCharacter()
         {
             Console.WriteLine("Character created");
-            Game.LoadingBar(6);
+            SentryTools.LoadingBar(6, 100);
             await Task.Delay(1300);
 
             Console.Clear();
