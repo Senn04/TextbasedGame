@@ -47,5 +47,11 @@ namespace TextBasedGame
             await Task.Delay(loadingDelay);
 
         }
+
+        public static void Quit()
+        {
+            Environment.Exit(0);
+            return;
+        }
     }
 }

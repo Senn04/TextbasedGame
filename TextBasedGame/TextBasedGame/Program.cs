@@ -10,7 +10,6 @@ namespace TextBasedGame
             
 
             Console.ReadKey();
-
         }        
     }
 }

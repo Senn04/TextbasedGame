@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Reflection.Metadata;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TextBasedGame
@@ -38,8 +39,7 @@ namespace TextBasedGame
             }
             else if (choice == 3)
             {
-                Environment.Exit(0);
-                return;
+                SentryTools.Quit();
             }
             else
             {
@@ -71,14 +71,15 @@ namespace TextBasedGame
             }
         }
 
-        public static async void createNewCharacter()
+        public static void createNewCharacter()
         {
             Console.WriteLine("Character created");
             SentryTools.LoadingBar(6, 100);
-            await Task.Delay(1300);
+            Thread.Sleep(1300);
 
             Console.Clear();
             Game.GameInfo();
+            Menus.ActionMenu();
             
         }
 
@@ -99,6 +100,54 @@ namespace TextBasedGame
             Console.WriteLine("    3 Rest");
             Console.WriteLine(" ");
             Console.WriteLine("    4 Quit");
+
+            //Option choice
+            string choiceStr = Console.ReadLine();
+            int choice = Convert.ToInt32(choiceStr);
+
+            if (choice == 1)
+            {
+                SentryTools.LoadingBar(12, 80);
+                Thread.Sleep(970);
+                Console.Clear();
+                Game.GameInfo();
+                Menus.TravelMenu();
+            }
+            else if (choice == 2)
+            {
+
+            }
+            else if (choice == 3)
+            {
+
+            }
+            else if (choice == 4)
+            {
+                Console.WriteLine("Are you sure you want to quit? [y/n]");
+                string choiceStrL = Console.ReadLine();
+                if (choiceStrL == "y")
+                {
+                    SentryTools.Quit();
+                }
+                else
+                {
+                    Console.Clear();
+                    Game.GameInfo();
+                    Menus.ActionMenu();
+                }
+            }
+            else
+            {
+
+            }        
+        }
+        public static void TravelMenu()
+        {
+            Console.WriteLine("Travel comming soon, you'll now be returned to the actions menu");
+            Thread.Sleep(1200);
+            Console.Clear();
+            Game.GameInfo();
+            Menus.ActionMenu();
         }
     }
 }
